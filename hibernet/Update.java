@@ -17,8 +17,8 @@ public class Update {
         Transaction tr = session.beginTransaction();
         Student st = new Student();
         st.setId(1);
-        st.setName("Priyanshi");
-        st.setAge("20");
+        st.setName("Raj");
+        st.setAge("22");
 
         session.update(st);
         System.out.println("Data updated successfuly");

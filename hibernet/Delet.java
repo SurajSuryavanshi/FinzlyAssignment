@@ -17,8 +17,8 @@ public class Delete {
         Transaction tr = session.beginTransaction();
         Student st = new Student();
         st.setId(1);
-        st.setName("Priyanshi");
-        st.setAge("20");
+        st.setName("Raj");
+        st.setAge("22");
 
         session.delete(st);
         System.out.println("Data Deleted successfuly");
